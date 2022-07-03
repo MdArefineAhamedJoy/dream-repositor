@@ -11,6 +11,7 @@ span{
 }
 section{
   display:flex;
+  margin-top: 100px;
 }
 .half-width{
    width:50%;
@@ -37,4 +38,16 @@ a:hover{
 .top-banner{
      background-image:url('images/top-banner.png');
      background-repeat: no-repeat;
+}
+
+a{
+  text-decoration: none;
+  background-image: linear-gradient(blue,red);
+  padding: 10px 40px;
+  color: aliceblue;
+}
+.dream{
+   background-image: url(images/dream-bg.png);
+   background-repeat:no-repeat;
+   background-position: right;
 }
