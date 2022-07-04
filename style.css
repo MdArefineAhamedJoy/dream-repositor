@@ -6,10 +6,13 @@ body{
 h1{
   font-size:50px;
 }
+h2{
+  font-size:40px;
+}
 span{
   color:#F4A460;
 }
-section{
+.conved-half{
   display:flex;
   margin-top: 100px;
 }
@@ -30,11 +33,9 @@ section{
   background-image:linear-gradient(orange,tomato);
   font-weight:700;
 }
-a:hover{
-     
-     color:black;
+
   
-}
+
 .top-banner{
      background-image:url('images/top-banner.png');
      background-repeat: no-repeat;
@@ -50,4 +51,28 @@ a{
    background-image: url(images/dream-bg.png);
    background-repeat:no-repeat;
    background-position: right;
+}
+.experiences-item{
+  width: 40% ;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  padding-left:20px;
+
+}
+.exparence{
+       background-image: url(images/exp-bg.png);
+       background-repeat: no-repeat;
+       background-position: left;
+       margin-top:0;
+ 
+}
+#full{
+  border-left: 7px outset cornflowerblue;
+}
+#baby{
+ border-left: 7px inset chocolate;
+}
+#footer{
+   text-align: center;
 }
